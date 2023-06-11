@@ -1,11 +1,32 @@
-*{}
+* {}
 
-body{}
+.segment {
+  display: flex;
+}
+
+.segment h2 {
+  flex: 20%;
+}
+
+.segment div {
+  flex: 80%;
+}
 
 /* Header */
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
 /* Navbar */
-
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+}
 /* Hero */
 
 /* About Me */
@@ -14,15 +35,14 @@ body{}
 .work {
   display: flex;
   flex-wrap: wrap;
-  flex: 100%;
 }
 
 .card {
-  flex: 0 1 50%;
+  flex: 40%;
 }
 
 .card.horiseon {
-  flex: 2 1 100%;
+  flex: 80%;
 }
 
 .card p {
@@ -32,3 +52,9 @@ body{}
 }
 
 /* Contact Me */
+footer ul {
+  display: flex;
+  flex: 1 0 250px;
+  justify-content: space-between;
+  margin-right: 25%;
+}
