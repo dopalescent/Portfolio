@@ -29,7 +29,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  color: #fff;
 }
 
 
@@ -52,7 +51,6 @@ nav ul {
 /* About Me */
 #aboutme div {
   display: flex;
-  align-items: center;
 }
 
 #headshot {
@@ -60,6 +58,8 @@ nav ul {
   width: 200px;
   border-style: solid;
   border-width: 1px;
+  align-self: center;
+  margin-left: 10px;
 }
 
 
@@ -98,6 +98,7 @@ nav ul {
   border-style: solid;
   border-width: 1px;
   padding: 1%;
+  margin: 0;
 }
 
 
